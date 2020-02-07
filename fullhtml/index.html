@@ -1,0 +1,123 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PVS-Studio HTML Report</title>
+<style type="text/css">
+   TABLE {
+    width: 100%;
+   }
+   #col_group, #col_level, #col_code, #col_cwe, #col_misra {
+    text-align: center;
+    white-space: nowrap;
+    width: 0;
+   }
+   #col_file, #col_info, #col_projects {
+    white-space: nowrap;
+    text-align: left;
+    width: 0;
+   }
+   #col_info {
+    width: 120px;
+   }
+   #col_message {
+    text-align: left;
+   }
+  </style>
+<link rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div class="header">
+    <img src="images/logo.png" alt=""/>
+    <h1>PVS-Studio Analysis Results</h1>
+    <br class="clear">
+  </div>
+
+  <table cellpadding="0" cellspacing="0" border="0" class="infotopic">
+     <tr><th id="col_info">Date:</th><td>Fri Feb  7 16:33:05 2020</td></tr>
+     <tr><th id="col_info">PVS-Studio Version:</th><td>7.05.35582.25</td></tr>
+     <tr><th id="col_info">Command Line:</th><td>plog-converter -a GA\:1,2,3\;OP\:1,2,3\;CS\:1,2,3\;MISRA\:1,2,3 -t fullhtml ./src/tasks/ruuvi_task_adc.o.PVS-Studio.log ./src/tasks/ruuvi_task_advertisement.o.PVS-Studio.log ./src/tasks/ruuvi_task_communication.o.PVS-Studio.log ./src/tasks/ruuvi_task_flash.o.PVS-Studio.log ./src/tasks/ruuvi_task_gatt.o.PVS-Studio.log ./src/tasks/ruuvi_task_sensor.o.PVS-Studio.log ./src/tasks/ruuvi_task_adc.o.PVS-Studio.log ./src/tasks/ruuvi_task_flash.o.PVS-Studio.log ./src/tasks/ruuvi_task_gpio.o.PVS-Studio.log ./src/tasks/ruuvi_task_nfc.o.PVS-Studio.log ./src/tasks/ruuvi_task_spi.o.PVS-Studio.log ./src/tasks/ruuvi_task_timer.o.PVS-Studio.log -o ./doxygen/html </td></tr>
+     <tr><th id="col_info">Total Warnings (MISRA):</th><td>9</td></tr>
+  </table>
+  <table cellpadding="0" cellspacing="0" border="0" class="sortable" id="sorter">
+    <tr>
+      <th class="gsort">Group</th>
+      <th>Location</th>
+      <th class="lsort">Level</th>
+      <th class="vsort">Code</th>
+      <th>Message</th>
+    </tr>
+    <tr>
+      <td id="col_group">MISRA</td>
+      <td id="col_file"><a target="_blank" href="sources/ruuvi_task_flash.c_0.html#ln215">ruuvi_task_flash.c:215</a></td>
+      <td id="col_level" style="color:#CACA00"><b>Low</b></td>
+      <td id="col_code"><a target="_blank" href="https://www.viva64.com/en/w/v2537/">V2537</td>
+      <td id="col_message">Functions should not have unused parameters. Consider inspecting the parameter: 'file_id'.</td>
+    </tr>
+    <tr>
+      <td id="col_group">MISRA</td>
+      <td id="col_file"><a target="_blank" href="sources/ruuvi_task_flash.c_0.html#ln215">ruuvi_task_flash.c:215</a></td>
+      <td id="col_level" style="color:#CACA00"><b>Low</b></td>
+      <td id="col_code"><a target="_blank" href="https://www.viva64.com/en/w/v2537/">V2537</td>
+      <td id="col_message">Functions should not have unused parameters. Consider inspecting the parameter: 'message'.</td>
+    </tr>
+    <tr>
+      <td id="col_group">MISRA</td>
+      <td id="col_file"><a target="_blank" href="sources/ruuvi_task_flash.c_0.html#ln215">ruuvi_task_flash.c:215</a></td>
+      <td id="col_level" style="color:#CACA00"><b>Low</b></td>
+      <td id="col_code"><a target="_blank" href="https://www.viva64.com/en/w/v2537/">V2537</td>
+      <td id="col_message">Functions should not have unused parameters. Consider inspecting the parameter: 'message_length'.</td>
+    </tr>
+    <tr>
+      <td id="col_group">MISRA</td>
+      <td id="col_file"><a target="_blank" href="sources/ruuvi_task_flash.c_0.html#ln215">ruuvi_task_flash.c:215</a></td>
+      <td id="col_level" style="color:#CACA00"><b>Low</b></td>
+      <td id="col_code"><a target="_blank" href="https://www.viva64.com/en/w/v2537/">V2537</td>
+      <td id="col_message">Functions should not have unused parameters. Consider inspecting the parameter: 'record_id'.</td>
+    </tr>
+    <tr>
+      <td id="col_group">MISRA</td>
+      <td id="col_file"><a target="_blank" href="sources/ruuvi_task_flash.c_0.html#ln224">ruuvi_task_flash.c:224</a></td>
+      <td id="col_level" style="color:#FFA500"><b>Medium</b></td>
+      <td id="col_code"><a target="_blank" href="https://www.viva64.com/en/w/v2544/">V2544</td>
+      <td id="col_message">The left operand '1' of the '&lt;&lt;' operator should not have the essential 'signed' type.</td>
+    </tr>
+    <tr>
+      <td id="col_group">MISRA</td>
+      <td id="col_file"><a target="_blank" href="sources/ruuvi_task_flash.c_0.html#ln221">ruuvi_task_flash.c:221</a></td>
+      <td id="col_level" style="color:#CACA00"><b>Low</b></td>
+      <td id="col_code"><a target="_blank" href="https://www.viva64.com/en/w/v2537/">V2537</td>
+      <td id="col_message">Functions should not have unused parameters. Consider inspecting the parameter: 'message'.</td>
+    </tr>
+    <tr>
+      <td id="col_group">MISRA</td>
+      <td id="col_file"><a target="_blank" href="sources/ruuvi_task_flash.c_0.html#ln221">ruuvi_task_flash.c:221</a></td>
+      <td id="col_level" style="color:#CACA00"><b>Low</b></td>
+      <td id="col_code"><a target="_blank" href="https://www.viva64.com/en/w/v2537/">V2537</td>
+      <td id="col_message">Functions should not have unused parameters. Consider inspecting the parameter: 'message_length'.</td>
+    </tr>
+    <tr>
+      <td id="col_group">MISRA</td>
+      <td id="col_file"><a target="_blank" href="sources/ruuvi_task_flash.c_0.html#ln221">ruuvi_task_flash.c:221</a></td>
+      <td id="col_level" style="color:#CACA00"><b>Low</b></td>
+      <td id="col_code"><a target="_blank" href="https://www.viva64.com/en/w/v2537/">V2537</td>
+      <td id="col_message">Functions should not have unused parameters. Consider inspecting the parameter: 'page_id'.</td>
+    </tr>
+    <tr>
+      <td id="col_group">MISRA</td>
+      <td id="col_file"><a target="_blank" href="sources/ruuvi_task_flash.c_0.html#ln221">ruuvi_task_flash.c:221</a></td>
+      <td id="col_level" style="color:#CACA00"><b>Low</b></td>
+      <td id="col_code"><a target="_blank" href="https://www.viva64.com/en/w/v2537/">V2537</td>
+      <td id="col_message">Functions should not have unused parameters. Consider inspecting the parameter: 'record_id'.</td>
+    </tr>
+
+  </table>
+<script type="text/javascript">
+var sorter=new table.sorter("sorter");
+sorter.init("sorter",0);
+</script>
+</body>
+</html>
+

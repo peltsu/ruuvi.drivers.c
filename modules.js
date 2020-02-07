@@ -1,0 +1,26 @@
+var modules =
+[
+    [ "Driver tets", "group__test__driver.html", "group__test__driver" ],
+    [ "Atomic functions", "group___atomic.html", "group___atomic" ],
+    [ "Environmental sensing", "group___environmental.html", "group___environmental" ],
+    [ "Flash storage", "group___flash.html", "group___flash" ],
+    [ "GPIO functions", "group___g_p_i_o.html", "group___g_p_i_o" ],
+    [ "I2C functions", "group___i2_c.html", "group___i2_c" ],
+    [ "Logging functions", "group___log.html", "group___log" ],
+    [ "CPU power", "group___power.html", "group___power" ],
+    [ "RTC functions", "group___r_t_c.html", "group___r_t_c" ],
+    [ "SPI functions", "group___s_p_i.html", "group___s_p_i" ],
+    [ "UART functions", "group___u_a_r_t.html", "group___u_a_r_t" ],
+    [ "Watchdog timer functions", "group___watchdog.html", "group___watchdog" ],
+    [ "Yield and delay functions", "group___yield.html", "group___yield" ],
+    [ "Error reporting and handling", "group___error.html", "group___error" ],
+    [ "Common sensor interface", "group___sensor.html", "group___sensor" ],
+    [ "Sending and receiving data.", "group__communication__tasks.html", "group__communication__tasks" ],
+    [ "Peripheral tasks", "group__peripheral__tasks.html", "group__peripheral__tasks" ],
+    [ "Interacting with outside world", "group__actuator__tasks.html", "group__actuator__tasks" ],
+    [ "Sensor tasks", "group__sensor__tasks.html", "group__sensor__tasks" ],
+    [ "Acceleration", "group___acceleration.html", "group___acceleration" ],
+    [ "ADC", "group___a_d_c.html", "group___a_d_c" ],
+    [ "ADC tasks", "group__adc__tasks.html", "group__adc__tasks" ],
+    [ "Button tasks", "group__button__tasks.html", "group__button__tasks" ]
+];
